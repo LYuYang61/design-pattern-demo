@@ -1,4 +1,7 @@
-package com.lyy.designpatterndemo.MementoPattern.mp;
+package com.lyy.designpatterndemo.MementoPattern;
+
+import com.lyy.designpatterndemo.MementoPattern.mp.Editor;
+import com.lyy.designpatterndemo.MementoPattern.mp.History;
 
 /**
  * 备忘录模式测试类
