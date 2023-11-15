@@ -1,4 +1,9 @@
-package com.lyy.designpatterndemo.CompositePattern.cp;
+package com.lyy.designpatterndemo.CompositePattern;
+
+import com.lyy.designpatterndemo.CompositePattern.cp.College;
+import com.lyy.designpatterndemo.CompositePattern.cp.Department;
+import com.lyy.designpatterndemo.CompositePattern.cp.OrganizationComponent;
+import com.lyy.designpatterndemo.CompositePattern.cp.University;
 
 /**
  * 组合模式测试

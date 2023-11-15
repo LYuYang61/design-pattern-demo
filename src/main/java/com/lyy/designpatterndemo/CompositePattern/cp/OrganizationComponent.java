@@ -17,12 +17,12 @@ public abstract class OrganizationComponent {
         this.des = des;
     }
 
-    protected void add(OrganizationComponent organizationComponent) {
+    public void add(OrganizationComponent organizationComponent) {
         // 默认实现
         throw new UnsupportedOperationException();
     }
 
-    protected void remove(OrganizationComponent organizationComponent) {
+    public void remove(OrganizationComponent organizationComponent) {
         // 默认实现
         throw new UnsupportedOperationException();
     }

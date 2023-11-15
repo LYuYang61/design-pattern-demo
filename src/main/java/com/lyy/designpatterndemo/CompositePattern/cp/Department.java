@@ -20,7 +20,7 @@ public class Department extends OrganizationComponent {
      * @param organizationComponent
      */
     @Override
-    protected void add(OrganizationComponent organizationComponent) {
+    public void add(OrganizationComponent organizationComponent) {
         organizationComponents.add(organizationComponent);
     }
 
@@ -29,7 +29,7 @@ public class Department extends OrganizationComponent {
      * @param organizationComponent
      */
     @Override
-    protected void remove(OrganizationComponent organizationComponent) {
+    public void remove(OrganizationComponent organizationComponent) {
         organizationComponents.remove(organizationComponent);
     }
 
